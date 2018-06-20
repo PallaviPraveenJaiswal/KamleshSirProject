@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17887" started-at="2018-06-18T17:38:23Z" finished-at="2018-06-18T17:38:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17887" started-at="2018-06-18T17:38:23Z" finished-at="2018-06-18T17:38:41Z">
+      <class name="com.Gatorford.pages.BrightonFord">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Gatorford.pages.BrightonFord@5dfcfece]" name="setUp" is-config="true" duration-ms="17836" started-at="2018-06-18T23:08:23Z" finished-at="2018-06-18T23:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="takeScreenshot1(java.lang.String)[pri:0, instance:com.Gatorford.pages.BrightonFord@5dfcfece]" name="takeScreenshot1" duration-ms="0" started-at="2018-06-18T23:08:41Z" finished-at="2018-06-18T23:08:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [takeScreenshot1] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [takeScreenshot1] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:334)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:274)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:562)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:672)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1316)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1044)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1134)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Gatorford.pages.BrightonFord@5dfcfece]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-18T23:08:41Z" finished-at="2018-06-18T23:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Gatorford.pages.BrightonFord -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
